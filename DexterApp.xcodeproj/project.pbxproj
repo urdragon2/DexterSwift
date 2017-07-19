@@ -13,6 +13,8 @@
 		498EAD6E1F1CEC4D003E8BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498EAD6D1F1CEC4D003E8BE6 /* Assets.xcassets */; };
 		498EAD711F1CEC4D003E8BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498EAD6F1F1CEC4D003E8BE6 /* LaunchScreen.storyboard */; };
 		498EAD7C1F1CEC4D003E8BE6 /* DexterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EAD7B1F1CEC4D003E8BE6 /* DexterAppTests.swift */; };
+		498EAD871F1CF08D003E8BE6 /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EAD861F1CF08D003E8BE6 /* BTDiscovery.swift */; };
+		498EAD891F1CF0DA003E8BE6 /* BTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EAD881F1CF0DA003E8BE6 /* BTService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		498EAD771F1CEC4D003E8BE6 /* DexterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DexterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EAD7B1F1CEC4D003E8BE6 /* DexterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexterAppTests.swift; sourceTree = "<group>"; };
 		498EAD7D1F1CEC4D003E8BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498EAD861F1CF08D003E8BE6 /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
+		498EAD881F1CF0DA003E8BE6 /* BTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				498EAD661F1CEC4D003E8BE6 /* AppDelegate.swift */,
 				498EAD681F1CEC4D003E8BE6 /* ViewController.swift */,
+				498EAD881F1CF0DA003E8BE6 /* BTService.swift */,
 				498EAD6A1F1CEC4D003E8BE6 /* Main.storyboard */,
 				498EAD6D1F1CEC4D003E8BE6 /* Assets.xcassets */,
 				498EAD6F1F1CEC4D003E8BE6 /* LaunchScreen.storyboard */,
 				498EAD721F1CEC4D003E8BE6 /* Info.plist */,
+				498EAD861F1CF08D003E8BE6 /* BTDiscovery.swift */,
 			);
 			path = DexterApp;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				498EAD691F1CEC4D003E8BE6 /* ViewController.swift in Sources */,
+				498EAD891F1CF0DA003E8BE6 /* BTService.swift in Sources */,
+				498EAD871F1CF08D003E8BE6 /* BTDiscovery.swift in Sources */,
 				498EAD671F1CEC4D003E8BE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kurfirstcorp.com.DexterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -362,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kurfirstcorp.com.DexterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
